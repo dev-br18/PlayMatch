@@ -39,7 +39,7 @@
     text-decoration: none;
     background-color: #E90054;
     border-radius: 15px;
-
+    border-style: none;
 }
 
 .imagem {
@@ -142,6 +142,7 @@ footer{
     .botao_header{
     width: 8.5rem;
     height: 1.8rem;
+    border-style: none;
     }
   }
 
@@ -154,5 +155,6 @@ footer{
     .botao_header{
     width: 4.5rem;
     height: 1.5rem;
+    border-style: none;
     }
   }
