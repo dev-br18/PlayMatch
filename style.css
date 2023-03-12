@@ -7,10 +7,7 @@
 
 
 .cabecalho {
-    background-color: black;
-    color: #fff;
-    padding: 15px;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .icone_fogo {
@@ -25,13 +22,18 @@
 .div_cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
     align-items: center;
+    background-color: black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 80px;
+    flex-wrap: wrap;
 
 }
 
 .botao_header {
-    padding: 10px 60px;
+    width: 8.5rem;
+    height: 2.5rem;
     margin: 5px;
     color: #fff;
     text-decoration: none;
@@ -130,3 +132,27 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+@media(max-width:600px){
+    .div_cabecalho{
+        flex-direction: column;
+        
+    }
+
+    .botao_header{
+    width: 8.5rem;
+    height: 1.8rem;
+    }
+  }
+
+  @media(max-width:300px){
+    .div_cabecalho{
+        flex-direction: column;
+        
+    }
+
+    .botao_header{
+    width: 4.5rem;
+    height: 1.5rem;
+    }
+  }
