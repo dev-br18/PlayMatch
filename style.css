@@ -6,10 +6,6 @@
 }
 
 
-.cabecalho {
-    
-}
-
 .icone_fogo {
     width: 60px;
 }
@@ -21,7 +17,7 @@
 
 .div_cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     color: #fff;
@@ -57,7 +53,7 @@
 }
 
 .texto_imagem {
-    
+
     color: #ffffff;
     font-size: 2rem;
     text-align: center;
@@ -69,7 +65,7 @@
 }
 
 .button_imagem {
-    
+
     padding: 10px 60px;
     margin: 5px;
     color: #fff;
@@ -88,7 +84,7 @@
     margin: 30px auto;
     flex-wrap: wrap;
 
-    
+
 
 }
 
@@ -121,40 +117,40 @@
     text-align: center;
 }
 
-footer{
+footer {
     margin-top: 30px;
     color: #fff;
     background-color: black;
     padding: 25px;
 }
 
-.logo_footer{
+.logo_footer {
     display: flex;
     justify-content: center;
 }
 
-@media(max-width:600px){
-    .div_cabecalho{
+@media(max-width:600px) {
+    .div_cabecalho {
         flex-direction: column;
-        
+
     }
 
-    .botao_header{
-    width: 8.5rem;
-    height: 1.8rem;
-    border-style: none;
+    .botao_header {
+        width: 8.5rem;
+        height: 1.8rem;
+        border-style: none;
     }
-  }
+}
 
-  @media(max-width:300px){
-    .div_cabecalho{
+@media(max-width:300px) {
+    .div_cabecalho {
         flex-direction: column;
-        
+
     }
 
-    .botao_header{
-    width: 4.5rem;
-    height: 1.5rem;
-    border-style: none;
+    .botao_header {
+        width: 4.5rem;
+        height: 1.5rem;
+        border-style: none;
     }
-  }
+}
