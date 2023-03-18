@@ -15,5 +15,3 @@
 - Html
 - Css
 
-**Proxima atualização**:
-- Preciso Adicionar Login e Register
