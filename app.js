@@ -20,10 +20,15 @@ app.get('/cadastro', async (req, res) => {
 
 })
 
+app.get('/login', async (req, res) => {
+    res.sendFile(__dirname + '/src/login/login.html')
+})
+
 app.post('/cadastro', async (req, res) => {
     const { user, password } = req.body;
 
     try {
+        
         const novoUsuario = await User.create({ user, password });
         res.status(201).json(novoUsuario);
     } catch (error) {

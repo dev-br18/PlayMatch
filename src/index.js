@@ -1,7 +1,6 @@
 
+const login = document.getElementById('login');
 
-const buttonLogin = document.querySelector(".login")
-
-buttonLogin.addEventListener('click', () => {
-    location.href = 'login.html'
-})
+login.addEventListener('click', function() {
+    window.location.href = 'http://localhost:8080/login';
+});
