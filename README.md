@@ -1,7 +1,6 @@
 # PlayMatch
 
 
-## Link Do Projeto: https://dev-br18.github.io/PlayMatch/
 
 
 
